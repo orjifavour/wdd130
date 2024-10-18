@@ -76,3 +76,66 @@ footer nav a img {
     width: 24px;
     height: auto;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+}
+
+header img {
+    width: 75px;
+    height: auto;
+}
+
+nav a {
+    flex: 1 1 100%;
+    display: block;
+    color: #FF6F61;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #333333;
+}
+
+.history {
+    display: block;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+}
+
+.adventure {
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px; 
+}
+
+.social-icons {
+    display: flex; 
+    gap: 200px;
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+}
+
+.image figure img {
+    width: 150px;
+}
+
