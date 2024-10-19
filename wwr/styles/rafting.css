@@ -141,8 +141,7 @@ nav a:hover {
 
 .history-body {
     display: flex;
-    flex: 2fr 1fr 2fr;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .history-body img {
