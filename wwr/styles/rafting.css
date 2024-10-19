@@ -139,3 +139,13 @@ nav a:hover {
     width: 150px;
 }
 
+.history-body {
+    display: flex;
+    flex: 2fr 1fr 2fr;
+    justify-content: flex-start;
+}
+
+.history-body img {
+    width: 150px;
+}
+
